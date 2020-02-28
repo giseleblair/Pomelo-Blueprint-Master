@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <plate_variables>
-    <created_date>2013-08-14</created_date>
-    <created_date>2013-08-14</created_date>
-    <plate>Blank Slate</plate>
-    <created_by>Variable Action</created_by>
-    <kitchen>Zesty</kitchen>
+    <created_date>2020-02-28</created_date>
+    <created_date>2020-02-28</created_date>
+    <plate>Pomelo</plate>
+    <created_by>Gisele Blair</created_by>
+    <kitchen>Zesty.io</kitchen>
     <variables>
         <color name="body-bg-color" name_friendly="Body Background Color">
             <category>1</category>
