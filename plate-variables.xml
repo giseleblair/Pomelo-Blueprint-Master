@@ -1,0 +1,2147 @@
+<?xml version="1.0"?>
+<plate_variables>
+    <created_date>2013-08-14</created_date>
+    <created_date>2013-08-14</created_date>
+    <plate>Blank Slate</plate>
+    <created_by>Variable Action</created_by>
+    <kitchen>Zesty</kitchen>
+    <variables>
+        <color name="body-bg-color" name_friendly="Body Background Color">
+            <category>1</category>
+            <description>The primary background for elements</description>
+            <sort>5</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#ffffff</value>
+        </color>
+        <image name="body-bg-image" name_friendly="Body Background Image">
+            <category>1</category>
+            <description>Optional background image for the body of your website.</description>
+            <sort>10</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value/>
+        </image>
+        <dropdown name="body-bg-image-repeat" name_friendly="Body Background Image Repeat">
+            <category>1</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>25</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>repeat</value>
+            <options>
+                <option description="No Repeat" value="no-repeat"/>
+                <option description="Repeat on Y Axis" value="repeat-y"/>
+                <option description="Repeat on X Axis" value="repeat-x"/>
+                <option description="Repeat" value="repeat"/>
+            </options>
+        </dropdown>
+        <dropdown name="body-bg-image-size" name_friendly="Body Background Image Size">
+            <category>1</category>
+            <description>&lt;strong&gt;Cover&lt;/strong&gt; scales the image to be as large as possible. &lt;strong&gt;Contain&lt;/strong&gt; scales the image to either the width or the height depending on which is longer. &lt;strong&gt;Percentages&lt;/strong&gt; will scale the image to a percentage of the browser</description>
+            <sort>30</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>50%</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </dropdown>
+        <text name="default-border-radius" name_friendly="Default Border Radius">
+            <category>1</category>
+            <description>The default curvature for borders around elements.</description>
+            <sort>4</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>4px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="content-bg-color" name_friendly="Content Background Color">
+            <category>1</category>
+            <description>The background color of all content boxes.</description>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#ffffff</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="sidebar-bg-color" name_friendly="Sidebar Background Color">
+            <category>5</category>
+            <description>The font for all h1-h3 tags on the site</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#e3e3e3</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="sidebar-font-color" name_friendly="Sidebar Font Color">
+            <category>5</category>
+            <description>The color for links throughout the site</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#333333</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="nav-bg-color" name_friendly="Navigation Background Color">
+            <category>4</category>
+            <description>The active color for links</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>rgba(255,255,255,0)</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+            </options>
+        </color>
+        <text name="nav-height" name_friendly="Navigation Height">
+            <category>4</category>
+            <description>The visited color for links</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>46px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <font_picker name="nav-font" name_friendly="Navigation Font">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>'Varela'</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </font_picker>
+        <color name="nav-font-color" name_friendly="Navigation Font Color">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#e3e3e3</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <text name="nav-font-size" name_friendly="Navigation Font Size">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>15px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="nav-link-padding-left" name_friendly="Navigation Link Padding Left">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>30px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="nav-link-padding-right" name_friendly="Navigation Link Padding Right">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>30px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="nav-hover-font-color" name_friendly="Navigation Hover Font Color">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#ffffff</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="nav-hover-bg-color" name_friendly="Navigation Hover Background Color">
+            <category>4</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>rgba(255,255,255,0)</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+            </options>
+        </color>
+        <text name="nav-transition-speed" name_friendly="Navigation Transition Speed">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>250ms</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <transition_type name="nav-transition-type" name_friendly="Navigation Transition Type">
+            <category>4</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>ease</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </transition_type>
+        <color name="link-color" name_friendly="Link Color">
+            <category>3</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#4eabed</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="link-hover-color" name_friendly="Link Hover Color">
+            <category>3</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#297ac2</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="link-visited-color" name_friendly="Link Visited Color">
+            <category>3</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#4d259c</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="link-active-color" name_friendly="Link Active Color">
+            <category>3</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#334491</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <text name="link-transition-speed" name_friendly="Link Transition Speed">
+            <category>3</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>100ms</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <font_picker name="default-font" name_friendly="Main Body Font">
+            <category>2</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>'Arial', 'Arial', 'Helvetica', 'sans-serif'</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </font_picker>
+        <color name="default-font-color" name_friendly="Default Font Color">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#5a5a5a</value>
+            <options>
+                <option description="No transition" value="0ms"/>
+                <option description="50ms" value="50ms"/>
+                <option description="100ms" value="100ms"/>
+                <option description="250ms" value="250ms"/>
+                <option description="500ms" value="500ms"/>
+                <option description="1 second" value="1000ms"/>
+            </options>
+        </color>
+        <text name="default-font-size" name_friendly="Default Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>12px</value>
+            <options>
+                <option description="No transition" value="0ms"/>
+                <option description="50ms" value="50ms"/>
+                <option description="100ms" value="100ms"/>
+                <option description="250ms" value="250ms"/>
+                <option description="500ms" value="500ms"/>
+                <option description="1 second" value="1000ms"/>
+            </options>
+        </text>
+        <font_picker name="heading-font" name_friendly="Heading Font">
+            <category>2</category>
+            <description/>
+            <sort>9</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>'Arial', 'Arial', 'Helvetica', 'sans-serif'</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </font_picker>
+        <text name="h1-font-size" name_friendly="H1 Font Size">
+            <category>2</category>
+            <description/>
+            <sort>11</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h1-margin-bottom" name_friendly="H1 Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>12</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>20px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h2-font-size" name_friendly="H2 Font Size">
+            <category>2</category>
+            <description/>
+            <sort>16</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>28px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h2-margin-bottom" name_friendly="H2 Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>17</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>16px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h3-font-size" name_friendly="H3 Font Size">
+            <category>2</category>
+            <description/>
+            <sort>21</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>28px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h3-margin-bottom" name_friendly="H3 Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>22</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>14px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h4-font-size" name_friendly="H4 Font Size">
+            <category>2</category>
+            <description/>
+            <sort>26</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>24px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h4-margin-bottom" name_friendly="H4 Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>27</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>12px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h5-font-size" name_friendly="H5 Font Size">
+            <category>2</category>
+            <description/>
+            <sort>31</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>18px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h5-margin-bottom" name_friendly="H5 Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>32</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>10px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h6-font-size" name_friendly="H6 Font Size">
+            <category>2</category>
+            <description/>
+            <sort>36</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>16px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="h6-margin-bottom" name_friendly="H6 Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>37</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>8px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="paragraph-font-size" name_friendly="Paragraph Font Size">
+            <category>2</category>
+            <description/>
+            <sort>6</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>14px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="paragraph-line-height" name_friendly="Paragraph line Height">
+            <category>2</category>
+            <description/>
+            <sort>7</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1.4em</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="paragraph-margin-bottom" name_friendly="Paragraph Margin Bottom">
+            <category>2</category>
+            <description/>
+            <sort>8</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1.5em</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="btn-font-color" name_friendly="Button Font Color">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#FFFFFF</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <text name="btn-height" name_friendly="Button Height">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>30px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="btn-border-radius" name_friendly="Button Border Radius">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>4px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="btn-bg-color" name_friendly="Button Background Color">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#0f63a3</value>
+            <options>
+                <option description="No transition" value="0ms"/>
+                <option description="50ms" value="50ms"/>
+                <option description="100ms" value="100ms"/>
+                <option description="250ms" value="250ms"/>
+                <option description="500ms" value="500ms"/>
+                <option description="1 second" value="1000ms"/>
+            </options>
+        </color>
+        <color name="btn-hover-font-color" name_friendly="Button Hover Font Color">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#ffffff</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="btn-hover-bg-color" name_friendly="Button Hover Background Color">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>20</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#082470</value>
+            <options>
+                <option description="No transition" value="0ms"/>
+                <option description="50ms" value="50ms"/>
+                <option description="100ms" value="100ms"/>
+                <option description="250ms" value="250ms"/>
+                <option description="500ms" value="500ms"/>
+                <option description="1 second" value="1000ms"/>
+            </options>
+        </color>
+        <text name="container-max-width" name_friendly="Container Max Width">
+            <category>1</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>960px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="h1-font-color" name_friendly="H1 Font Color">
+            <category>2</category>
+            <description/>
+            <sort>10</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#000000</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="h2-font-color" name_friendly="H2 Font Color">
+            <category>2</category>
+            <description/>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#111</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="h3-font-color" name_friendly="H3 Font Color">
+            <category>2</category>
+            <description/>
+            <sort>20</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#222</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="h4-font-color" name_friendly="H4 Font Color">
+            <category>2</category>
+            <description/>
+            <sort>25</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#333</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="h5-font-color" name_friendly="H5 Font Color">
+            <category>2</category>
+            <description/>
+            <sort>30</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#343434</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="h6-font-color" name_friendly="H6 Font Color">
+            <category>2</category>
+            <description/>
+            <sort>35</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#393939</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <color name="paragraph-font-color" name_friendly="Paragraph Font Color">
+            <category>2</category>
+            <description/>
+            <sort>5</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#6b6766</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <text name="btn-padding-right" name_friendly="Button Padding Right">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>15px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="btn-padding-left" name_friendly="Button Padding Left">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>15px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="btn-font-size" name_friendly="Button Font Size">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>18px</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="body-bg-image-position" name_friendly="Body Background Image Position">
+            <category>1</category>
+            <description/>
+            <sort>20</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>top left</value>
+            <options>
+                <option description="As is" value="auto"/>
+                <option description="Cover" value="cover"/>
+                <option description="Contain" value="contain"/>
+                <option description="100%" value="100%"/>
+                <option description="90%" value="90%"/>
+                <option description="80%" value="80%"/>
+                <option description="70%" value="70%"/>
+                <option description="60%" value="60%"/>
+                <option description="50%" value="50%"/>
+                <option description="40%" value="40%"/>
+                <option description="30%" value="30%"/>
+                <option description="20%" value="20%"/>
+                <option description="10%" value="10%"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <dropdown name="body-bg-image-attachment" name_friendly="Body Background Image Attachment">
+            <category>1</category>
+            <description>&lt;strong&gt;Fixed&lt;/strong&gt; will leave the background image where it is as you scroll. &lt;strong&gt;Scroll&lt;/strong&gt; will scroll the background image as you scroll.</description>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>scroll</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </dropdown>
+        <text name="default-spacing" name_friendly="Default Spacing">
+            <category>1</category>
+            <description>This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui</description>
+            <sort>4</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>20px</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </text>
+        <color name="accent-color" name_friendly="Accent Color">
+            <category>1</category>
+            <description>This color is used for hairlines, borders, even color on tables, and general aesthetics</description>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#d7d7d7</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </color>
+        <text name="list-margin" name_friendly="List Margin">
+            <category>7</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>10px</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </text>
+        <color name="list-font-color" name_friendly="List Font Color">
+            <category>7</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#333333</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </color>
+        <text name="list-font-size" name_friendly="List Font Size">
+            <category>7</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>14px</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </text>
+        <dropdown name="list-unordered-style" name_friendly="Unordered List Style">
+            <category>7</category>
+            <description/>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>disc</value>
+            <options>
+                <option description="Traditional Armenian numbering" value="armenian"/>
+                <option description="A circle" value="circle"/>
+                <option description="Plain ideographic numbers" value="cjk-ideographic"/>
+                <option description="A number. This is default for ordered lists" value="decimal"/>
+                <option description="A number with leading zeros (01, 02, 03, etc.)" value="decimal-leading-zero"/>
+                <option description="A filled circle. This is default for unordered lists" value="disc"/>
+                <option description="Traditional Georgian numbering" value="georgian"/>
+                <option description="Traditional Hebrew numbering" value="hebrew"/>
+                <option description="Traditional Hiragana numbering" value="hiragana"/>
+                <option description="Traditional Hiragana iroha numbering" value="hiragana-iroha"/>
+                <option description="Traditional Katakana numbering" value="katakana"/>
+                <option description="Traditional Katakana iroha numbering" value="katakana-iroha"/>
+                <option description="Lowercase Alphabet (a, b, c, d, e, etc.)" value="lower-alpha"/>
+                <option description="Lowercase Greek Letters" value="lower-greek"/>
+                <option description="Lowercase Latin Letters (a, b, c, d, e, etc.)" value="lower-latin"/>
+                <option description="Lowercase Roman Numerals (i, ii, iii, iv, v, etc.)" value="lower-roman"/>
+                <option description="No marker is shown" value="none"/>
+                <option description="A square" value="square"/>
+                <option description="Uppercase Alphabet (A, B, C, D, E, etc.)" value="upper-alpha"/>
+                <option description="Uppercase Latin Letters (A, B, C, D, E, etc.)" value="upper-latin"/>
+                <option description="Uppercase Roman Numerals (I, II, III, IV, V, etc.)" value="upper-roman"/>
+                <option description="The value of this property is inherited from the parent element" value="inherit"/>
+                <option description="" value=""/>
+            </options>
+        </dropdown>
+        <text name="table-font-size" name_friendly="Table Font Size">
+            <category>7</category>
+            <description/>
+            <sort>10</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>14px</value>
+            <options>
+                <option description="Traditional Armenian numbering" value="armenian"/>
+                <option description="A circle" value="circle"/>
+                <option description="Plain ideographic numbers" value="cjk-ideographic"/>
+                <option description="A number. This is default for ordered lists" value="decimal"/>
+                <option description="A number with leading zeros (01, 02, 03, etc.)" value="decimal-leading-zero"/>
+                <option description="A filled circle. This is default for unordered lists" value="disc"/>
+                <option description="Traditional Georgian numbering" value="georgian"/>
+                <option description="Traditional Hebrew numbering" value="hebrew"/>
+                <option description="Traditional Hiragana numbering" value="hiragana"/>
+                <option description="Traditional Hiragana iroha numbering" value="hiragana-iroha"/>
+                <option description="Traditional Katakana numbering" value="katakana"/>
+                <option description="Traditional Katakana iroha numbering" value="katakana-iroha"/>
+                <option description="Lowercase Alphabet (a, b, c, d, e, etc.)" value="lower-alpha"/>
+                <option description="Lowercase Greek Letters" value="lower-greek"/>
+                <option description="Lowercase Latin Letters (a, b, c, d, e, etc.)" value="lower-latin"/>
+                <option description="Lowercase Roman Numerals (i, ii, iii, iv, v, etc.)" value="lower-roman"/>
+                <option description="No marker is shown" value="none"/>
+                <option description="A square" value="square"/>
+                <option description="Uppercase Alphabet (A, B, C, D, E, etc.)" value="upper-alpha"/>
+                <option description="Uppercase Latin Letters (A, B, C, D, E, etc.)" value="upper-latin"/>
+                <option description="Uppercase Roman Numerals (I, II, III, IV, V, etc.)" value="upper-roman"/>
+                <option description="The value of this property is inherited from the parent element" value="inherit"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="table-font-color" name_friendly="Table Font Color">
+            <category>7</category>
+            <description/>
+            <sort>11</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#333333</value>
+            <options>
+                <option description="Traditional Armenian numbering" value="armenian"/>
+                <option description="A circle" value="circle"/>
+                <option description="Plain ideographic numbers" value="cjk-ideographic"/>
+                <option description="A number. This is default for ordered lists" value="decimal"/>
+                <option description="A number with leading zeros (01, 02, 03, etc.)" value="decimal-leading-zero"/>
+                <option description="A filled circle. This is default for unordered lists" value="disc"/>
+                <option description="Traditional Georgian numbering" value="georgian"/>
+                <option description="Traditional Hebrew numbering" value="hebrew"/>
+                <option description="Traditional Hiragana numbering" value="hiragana"/>
+                <option description="Traditional Hiragana iroha numbering" value="hiragana-iroha"/>
+                <option description="Traditional Katakana numbering" value="katakana"/>
+                <option description="Traditional Katakana iroha numbering" value="katakana-iroha"/>
+                <option description="Lowercase Alphabet (a, b, c, d, e, etc.)" value="lower-alpha"/>
+                <option description="Lowercase Greek Letters" value="lower-greek"/>
+                <option description="Lowercase Latin Letters (a, b, c, d, e, etc.)" value="lower-latin"/>
+                <option description="Lowercase Roman Numerals (i, ii, iii, iv, v, etc.)" value="lower-roman"/>
+                <option description="No marker is shown" value="none"/>
+                <option description="A square" value="square"/>
+                <option description="Uppercase Alphabet (A, B, C, D, E, etc.)" value="upper-alpha"/>
+                <option description="Uppercase Latin Letters (A, B, C, D, E, etc.)" value="upper-latin"/>
+                <option description="Uppercase Roman Numerals (I, II, III, IV, V, etc.)" value="upper-roman"/>
+                <option description="The value of this property is inherited from the parent element" value="inherit"/>
+                <option description="" value=""/>
+            </options>
+        </color>
+        <dropdown name="list-ordered-style" name_friendly="Ordered List Style">
+            <category>7</category>
+            <description/>
+            <sort>16</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>decimal</value>
+            <options>
+                <option description="Traditional Armenian numbering" value="armenian"/>
+                <option description="A circle" value="circle"/>
+                <option description="Plain ideographic numbers" value="cjk-ideographic"/>
+                <option description="A number. This is default for ordered lists" value="decimal"/>
+                <option description="A number with leading zeros (01, 02, 03, etc.)" value="decimal-leading-zero"/>
+                <option description="A filled circle. This is default for unordered lists" value="disc"/>
+                <option description="Traditional Georgian numbering" value="georgian"/>
+                <option description="Traditional Hebrew numbering" value="hebrew"/>
+                <option description="Traditional Hiragana numbering" value="hiragana"/>
+                <option description="Traditional Hiragana iroha numbering" value="hiragana-iroha"/>
+                <option description="Traditional Katakana numbering" value="katakana"/>
+                <option description="Traditional Katakana iroha numbering" value="katakana-iroha"/>
+                <option description="Lowercase Alphabet (a, b, c, d, e, etc.)" value="lower-alpha"/>
+                <option description="Lowercase Greek Letters" value="lower-greek"/>
+                <option description="Lowercase Latin Letters (a, b, c, d, e, etc.)" value="lower-latin"/>
+                <option description="Lowercase Roman Numerals (i, ii, iii, iv, v, etc.)" value="lower-roman"/>
+                <option description="No marker is shown" value="none"/>
+                <option description="A square" value="square"/>
+                <option description="Uppercase Alphabet (A, B, C, D, E, etc.)" value="upper-alpha"/>
+                <option description="Uppercase Latin Letters (A, B, C, D, E, etc.)" value="upper-latin"/>
+                <option description="Uppercase Roman Numerals (I, II, III, IV, V, etc.)" value="upper-roman"/>
+                <option description="The value of this property is inherited from the parent element" value="inherit"/>
+                <option description="" value=""/>
+            </options>
+        </dropdown>
+        <text name="headings-line-height" name_friendly="Headings Line Height">
+            <category>2</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1.2</value>
+            <options>
+                <option description="Traditional Armenian numbering" value="armenian"/>
+                <option description="A circle" value="circle"/>
+                <option description="Plain ideographic numbers" value="cjk-ideographic"/>
+                <option description="A number. This is default for ordered lists" value="decimal"/>
+                <option description="A number with leading zeros (01, 02, 03, etc.)" value="decimal-leading-zero"/>
+                <option description="A filled circle. This is default for unordered lists" value="disc"/>
+                <option description="Traditional Georgian numbering" value="georgian"/>
+                <option description="Traditional Hebrew numbering" value="hebrew"/>
+                <option description="Traditional Hiragana numbering" value="hiragana"/>
+                <option description="Traditional Hiragana iroha numbering" value="hiragana-iroha"/>
+                <option description="Traditional Katakana numbering" value="katakana"/>
+                <option description="Traditional Katakana iroha numbering" value="katakana-iroha"/>
+                <option description="Lowercase Alphabet (a, b, c, d, e, etc.)" value="lower-alpha"/>
+                <option description="Lowercase Greek Letters" value="lower-greek"/>
+                <option description="Lowercase Latin Letters (a, b, c, d, e, etc.)" value="lower-latin"/>
+                <option description="Lowercase Roman Numerals (i, ii, iii, iv, v, etc.)" value="lower-roman"/>
+                <option description="No marker is shown" value="none"/>
+                <option description="A square" value="square"/>
+                <option description="Uppercase Alphabet (A, B, C, D, E, etc.)" value="upper-alpha"/>
+                <option description="Uppercase Latin Letters (A, B, C, D, E, etc.)" value="upper-latin"/>
+                <option description="Uppercase Roman Numerals (I, II, III, IV, V, etc.)" value="upper-roman"/>
+                <option description="The value of this property is inherited from the parent element" value="inherit"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <text name="mobile-edge-padding" name_friendly="Mobile Edge Padding">
+            <category>1</category>
+            <description>This prevents text from bleeding straight to the edge when user is on a mobile device.</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>20px</value>
+            <options>
+                <option description="Traditional Armenian numbering" value="armenian"/>
+                <option description="A circle" value="circle"/>
+                <option description="Plain ideographic numbers" value="cjk-ideographic"/>
+                <option description="A number. This is default for ordered lists" value="decimal"/>
+                <option description="A number with leading zeros (01, 02, 03, etc.)" value="decimal-leading-zero"/>
+                <option description="A filled circle. This is default for unordered lists" value="disc"/>
+                <option description="Traditional Georgian numbering" value="georgian"/>
+                <option description="Traditional Hebrew numbering" value="hebrew"/>
+                <option description="Traditional Hiragana numbering" value="hiragana"/>
+                <option description="Traditional Hiragana iroha numbering" value="hiragana-iroha"/>
+                <option description="Traditional Katakana numbering" value="katakana"/>
+                <option description="Traditional Katakana iroha numbering" value="katakana-iroha"/>
+                <option description="Lowercase Alphabet (a, b, c, d, e, etc.)" value="lower-alpha"/>
+                <option description="Lowercase Greek Letters" value="lower-greek"/>
+                <option description="Lowercase Latin Letters (a, b, c, d, e, etc.)" value="lower-latin"/>
+                <option description="Lowercase Roman Numerals (i, ii, iii, iv, v, etc.)" value="lower-roman"/>
+                <option description="No marker is shown" value="none"/>
+                <option description="A square" value="square"/>
+                <option description="Uppercase Alphabet (A, B, C, D, E, etc.)" value="upper-alpha"/>
+                <option description="Uppercase Latin Letters (A, B, C, D, E, etc.)" value="upper-latin"/>
+                <option description="Uppercase Roman Numerals (I, II, III, IV, V, etc.)" value="upper-roman"/>
+                <option description="The value of this property is inherited from the parent element" value="inherit"/>
+                <option description="" value=""/>
+            </options>
+        </text>
+        <color name="nav-at-font-color" name_friendly="Navigation At Font Color">
+            <category>4</category>
+            <description>The color of the Navigation element when you are at the page</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#000000</value>
+            <options>
+                <option description="Scroll with you" value="scroll"/>
+                <option description="Fixed image" value="fixed"/>
+            </options>
+        </color>
+        <dropdown name="grid-gutter-width" name_friendly="Grid Gutter Width">
+            <category>8</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>2%</value>
+            <options>
+                <option description="No gutter" value="0px"/>
+                <option description="1%" value="1%"/>
+                <option description="2%" value="2%"/>
+                <option description="3%" value="3%"/>
+                <option description="4%" value="4%"/>
+                <option description="5%" value="5%"/>
+                <option description="6%" value="6%"/>
+                <option description="7%" value="7%"/>
+                <option description="8%" value="8%"/>
+                <option description="9%" value="9%"/>
+                <option description="10%" value="10%"/>
+                <option description="12%" value="12%"/>
+                <option description="14%" value="14%"/>
+                <option description="16%" value="16%"/>
+                <option description="18%" value="18%"/>
+                <option description="20%" value="20%"/>
+            </options>
+        </dropdown>
+        <text name="responsive-grid-margin-bottom" name_friendly="Responsive Grid Margin Bottom">
+            <category>8</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>0px</value>
+            <options>
+                <option description="No gutter" value="0px"/>
+                <option description="1%" value="1%"/>
+                <option description="2%" value="2%"/>
+                <option description="3%" value="3%"/>
+                <option description="4%" value="4%"/>
+                <option description="5%" value="5%"/>
+                <option description="6%" value="6%"/>
+                <option description="7%" value="7%"/>
+                <option description="8%" value="8%"/>
+                <option description="9%" value="9%"/>
+                <option description="10%" value="10%"/>
+                <option description="12%" value="12%"/>
+                <option description="14%" value="14%"/>
+                <option description="16%" value="16%"/>
+                <option description="18%" value="18%"/>
+                <option description="20%" value="20%"/>
+            </options>
+        </text>
+        <dropdown name="responsive-break-down" name_friendly="Responsive Breakdown">
+            <category>8</category>
+            <description>This tells the grid to split columns down immediately to 1 column, or attempt to line them up</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1</value>
+            <options>
+                <option description="Don't breakdown" value="0"/>
+                <option description="Use grid breakdown" value="1"/>
+            </options>
+        </dropdown>
+        <dropdown name="link-font-weight" name_friendly="Link Font Weight">
+            <category>3</category>
+            <description>NULL</description>
+            <sort>4</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>normal</value>
+            <options>
+                <option description="Don't breakdown" value="0"/>
+                <option description="Use grid breakdown" value="1"/>
+            </options>
+        </dropdown>
+        <dropdown name="link-text-decoration" name_friendly="Link Text Decoration">
+            <category>3</category>
+            <description>NULL</description>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>none</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </dropdown>
+        <dropdown name="link-hover-text-decoration" name_friendly="Link Hover Text Decoration">
+            <category>3</category>
+            <description>NULL</description>
+            <sort>7</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>none</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </dropdown>
+        <color name="blockquote-font-color" name_friendly="Blockquote Font Color">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>40</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#333333</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+        <text name="blockquote-padding" name_friendly="Blockquote Padding">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>45</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>5px</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </text>
+        <font_picker name="blockquote-font" name_friendly="Blockquote Font">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>50</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>'Arial', 'Arial', 'Helvetica', 'sans-serif'</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </font_picker>
+        <text name="blockquote-font-size" name_friendly="Blockquote Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>55</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>12px</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </text>
+        <dropdown name="blockquote-font-weight" name_friendly="Blockquote Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>60</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>normal</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </dropdown>
+        <dropdown name="blockquote-font-style" name_friendly="Blockquote Font Style">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>65</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>normal</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </dropdown>
+        <text name="blockquote-line-height" name_friendly="Blockquote Line Height">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>70</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1.1</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </text>
+        <dropdown name="h1-font-weight" name_friendly="H1 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>12</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>bold</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </dropdown>
+        <font_weight name="h2-font-weight" name_friendly="H2 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>17</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>bold</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <font_weight name="h3-font-weight" name_friendly="H3 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>22</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>bold</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <font_weight name="h4-font-weight" name_friendly="H4 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>27</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>bold</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <font_weight name="h5-font-weight" name_friendly="H5 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>32</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>bold</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <font_weight name="h6-font-weight" name_friendly="H6 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>37</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>bold</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <font_weight name="paragraph-font-weight" name_friendly="Paragraph Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>6</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>normal</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <color name="subnav-link-color" name_friendly="Subnav Link Color">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#123456</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </color>
+        <color name="subnav-link-hover-color" name_friendly="Subnav Link Hover Color">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#123456</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </color>
+        <font_weight name="subnav-link-weight" name_friendly="Subnav Link Weight">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>normal</value>
+            <options>
+                <option description="Normal" value="normal"/>
+                <option description="Italic" value="italic"/>
+            </options>
+        </font_weight>
+        <dropdown name="subnav-link-text-decoration" name_friendly="Subnav Link Text Decoration">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>none</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </dropdown>
+        <dropdown name="subnav-link-hover-text-decoration" name_friendly="Subnav Link Hover Text Decoration">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>none</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </dropdown>
+        <color name="subnav-link-visited-color" name_friendly="Subnav Link Visited Color">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#123456</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+        <color name="subnav-link-active-color" name_friendly="Subnav Link Active Color">
+            <category>5</category>
+            <description>NULL</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#de1454</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+        <color name="btn-secondary-bg-color" name_friendly="Secondary Button Background Color">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>50</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#228191</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+        <text name="btn-secondary-font-size" name_friendly="Secondary Button Font Size">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>55</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>18px</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </text>
+        <color name="btn-secondary-font-color" name_friendly="Secondary Button Font Color">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>60</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#FFFFFF</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+        <text name="btn-secondary-height" name_friendly="Secondary Button Height">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>65</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>30px</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </text>
+        <text name="btn-secondary-padding-right" name_friendly="Secondary Button Padding Right">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>70</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>15px</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </text>
+        <text name="btn-secondary-padding-left" name_friendly="Secondary Button Padding Left">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>75</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>15px</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </text>
+        <color name="btn-secondary-hover-bg-color" name_friendly="Secondary Button Hover Background Color">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>80</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#135953</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+        <color name="btn-secondary-hover-font-color" name_friendly="Secondary Button Hover Font Color">
+            <category>6</category>
+            <description>NULL</description>
+            <sort>85</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#ffffff</value>
+            <options>
+                <option description="None" value="none"/>
+                <option description="Underline" value="underline"/>
+                <option description="Strike through" value="line-through"/>
+            </options>
+        </color>
+    </variables>
+</plate_variables>

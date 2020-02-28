@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<plate>
+    <ingredients>
+        <templateset name="homepage" name_friendly="Homepage" view="homepage">
+            <fields>
+                <text name="title" name_friendly="Lead in Title" required="1" />
+                <wysiwyg_advanced name="content" name_friendly="Intro Text" />
+                <images name="image" name_friendly="Main Image" limit="1" />
+            </fields>
+            <items>
+                <item link_title="Homepage" path_part="zesty_home">
+                    <title><![CDATA[Homepage]]></title>
+                    <content><![CDATA[<p>Blank</p>]]></content>
+                    <image><![CDATA[https://be93523bd41e2e475e74-e4edef19ad51123442eaceed55c78461.ssl.cf2.rackcdn.com/or-homepage1.png]]></image>
+                </item>
+            </items>
+        </templateset>
+    </ingredients>
+
+    <clippings>
+        <text name="site_name" name_friendly="Site Name" required="1">
+            <![CDATA[Edit Site Name in Content Clippings]]>
+        </text>
+        <images name="logo" name_friendly="Site Logo" limit="1" />
+        <text name="footer_text" name_friendly="Footer Text">
+            <![CDATA[Footer text can be updated in Content Clippings]]>
+        </text>
+    </clippings>
+
+    <head>
+        <doctype>html5</doctype>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+</plate>
