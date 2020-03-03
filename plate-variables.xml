@@ -136,11 +136,10 @@
 		        <option description="Dark" value="dark" />
 		    </options>
 		</dropdown>
-		<radio name="enable-rounded" name_friendly="Rounded Borders">
+		<checkbox name="enable-rounded" name_friendly="Rounded Borders">
 			<value>true</value>
-		</radio>
-		<radio name="enable-rounded" name_friendly="Rounded Borders">
-			<value>false</value>
-		</radio>
+			<option description="true" value="true"/>
+			<option description="false" value="false"/>
+		</checkbox>
 	</variables>
 </plate_variables>
