@@ -136,13 +136,13 @@
 		        <option description="Dark" value="dark" />
 		    </options>
 		</dropdown>
-				<dropdown name="enable-rounded" name_friendly="Rounded Corners">
-		    <category>3</category>
+		<dropdown name="enable-rounded" name_friendly="Rounded Corners">
+		    <category>1</category>
 		    <description/>
-		    <sort>2</sort>
+		    <sort>7</sort>
 		    <edit_in_content>1</edit_in_content>
 		    <locked>0</locked>
-		    <value>Primary</value>
+		    <value>true</value>
 		    <options>
 		        <option description="Yes" value="true" />
 		        <option description="No" value="false" />
