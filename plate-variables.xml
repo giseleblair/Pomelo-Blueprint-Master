@@ -137,6 +137,12 @@
 		    </options>
 		</dropdown>
 		<checkbox name="enable-rounded" name_friendly="Rounded Borders">
+			<category>1</category>
+			<description/>
+			<sort>6</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>#337ab7</value>
 			<value>true</value>
 			<option description="true" value="true"/>
 			<option description="false" value="false"/>
