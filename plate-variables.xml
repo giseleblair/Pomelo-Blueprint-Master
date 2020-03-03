@@ -71,7 +71,7 @@
 				<option description="1 second" value="1000ms" />
 			</options>
 		</color>
-		<color name="Warning" name_friendly="Warning Color">
+		<color name="warning" name_friendly="Warning Color">
 			<category>1</category>
 			<description/>
 			<sort>5</sort>
@@ -87,7 +87,7 @@
 				<option description="1 second" value="1000ms" />
 			</options>
 		</color>
-		<color name="Danger" name_friendly="Danger Color">
+		<color name="danger" name_friendly="Danger Color">
 			<category>1</category>
 			<description/>
 			<sort>6</sort>
@@ -136,21 +136,17 @@
 		        <option description="Dark" value="dark" />
 		    </options>
 		</dropdown>
-		<radio name="enable-rounded" name_friendly="Rounded Corners">
-			<category>1</category>
-			<description/>
-			<sort>6</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>true</value>
-		</radio>
-		<radio name="enable-rounded" name_friendly="Rounded Corners">
-			<category>1</category>
-			<description/>
-			<sort>6</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>false</value>
-		</radio>
+				<dropdown name="enable-rounded" name_friendly="Rounded Corners">
+		    <category>3</category>
+		    <description/>
+		    <sort>2</sort>
+		    <edit_in_content>1</edit_in_content>
+		    <locked>0</locked>
+		    <value>Primary</value>
+		    <options>
+		        <option description="Yes" value="true" />
+		        <option description="No" value="false" />
+		    </options>
+		</dropdown>
 	</variables>
 </plate_variables>
