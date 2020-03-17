@@ -3,8 +3,8 @@
     <created_date>2013-08-14</created_date>
     <created_date>2013-08-14</created_date>
     <plate>Blank Slate</plate>
-    <created_by>Variable Action</created_by>
-    <kitchen>Zesty</kitchen>
+    <created_by>Zesty</created_by>
+    <kitchen>Empty</kitchen>
     <variables>
         <color name="primary" name_friendly="Primary Color">
 			<category>1</category>
