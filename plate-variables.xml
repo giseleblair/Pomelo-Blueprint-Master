@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <plate_variables>
-    <created_date>2013-08-14</created_date>
-    <created_date>2013-08-14</created_date>
-    <plate>Blank Slate</plate>
-    <created_by>Zesty</created_by>
-    <kitchen>Empty</kitchen>
-    <variables>
-        <color name="primary" name_friendly="Primary Color">
+	<created_date>2013-08-14</created_date>
+	<created_date>2013-08-14</created_date>
+	<plate>Blank Slate</plate>
+	<created_by>Zesty</created_by>
+	<kitchen>Empty</kitchen>
+	<variables>
+		<color name="primary" name_friendly="Primary Color">
 			<category>1</category>
 			<description/>
 			<sort>1</sort>
@@ -119,101 +119,101 @@
 			</options>
 		</color>
 		<text name="container-max-sm" name_friendly="Container sm max width">
-				<category>1</category>
-				<description>Container max width for small screen sizes. Default: 540px</description>
-				<sort>8</sort>
-				<edit_in_content>1</edit_in_content>
-				<locked>0</locked>
-				<value>540px</value>
-				<options>
-						<option description="No transition" value="0ms" />
-						<option description="50ms" value="50ms" />
-						<option description="100ms" value="100ms" />
-						<option description="250ms" value="250ms" />
-						<option description="500ms" value="500ms" />
-						<option description="1 second" value="1000ms" />
-				</options>
+			<category>1</category>
+			<description>Container max width for small screen sizes. Default: 540px</description>
+			<sort>8</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>540px</value>
+			<options>
+				<option description="No transition" value="0ms" />
+				<option description="50ms" value="50ms" />
+				<option description="100ms" value="100ms" />
+				<option description="250ms" value="250ms" />
+				<option description="500ms" value="500ms" />
+				<option description="1 second" value="1000ms" />
+			</options>
 		</text>
 		<text name="container-max-md" name_friendly="Container md max width">
-				<category>1</category>
-				<description>Container max width for medium screen sizes. Default: 720px</description>
-				<sort>9</sort>
-				<edit_in_content>1</edit_in_content>
-				<locked>0</locked>
-				<value>720px</value>
-				<options>
-						<option description="No transition" value="0ms" />
-						<option description="50ms" value="50ms" />
-						<option description="100ms" value="100ms" />
-						<option description="250ms" value="250ms" />
-						<option description="500ms" value="500ms" />
-						<option description="1 second" value="1000ms" />
-				</options>
+			<category>1</category>
+			<description>Container max width for medium screen sizes. Default: 720px</description>
+			<sort>9</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>720px</value>
+			<options>
+				<option description="No transition" value="0ms" />
+				<option description="50ms" value="50ms" />
+				<option description="100ms" value="100ms" />
+				<option description="250ms" value="250ms" />
+				<option description="500ms" value="500ms" />
+				<option description="1 second" value="1000ms" />
+			</options>
 		</text>
 		<text name="container-max-lg" name_friendly="Container lg max width">
-				<category>1</category>
-				<description>Container max width for large screen sizes. Default: 960px</description>
-				<sort>10</sort>
-				<edit_in_content>1</edit_in_content>
-				<locked>0</locked>
-				<value>960px</value>
-				<options>
-						<option description="No transition" value="0ms" />
-						<option description="50ms" value="50ms" />
-						<option description="100ms" value="100ms" />
-						<option description="250ms" value="250ms" />
-						<option description="500ms" value="500ms" />
-						<option description="1 second" value="1000ms" />
-				</options>
+			<category>1</category>
+			<description>Container max width for large screen sizes. Default: 960px</description>
+			<sort>10</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>960px</value>
+			<options>
+				<option description="No transition" value="0ms" />
+				<option description="50ms" value="50ms" />
+				<option description="100ms" value="100ms" />
+				<option description="250ms" value="250ms" />
+				<option description="500ms" value="500ms" />
+				<option description="1 second" value="1000ms" />
+			</options>
 		</text>
 		<text name="container-max-xl" name_friendly="Container xl max width">
-				<category>1</category>
-				<description>Container max width for extra-large screen sizes. Default: 1140px</description>
-				<sort>10</sort>
-				<edit_in_content>1</edit_in_content>
-				<locked>0</locked>
-				<value>1140px</value>
-				<options>
-						<option description="No transition" value="0ms" />
-						<option description="50ms" value="50ms" />
-						<option description="100ms" value="100ms" />
-						<option description="250ms" value="250ms" />
-						<option description="500ms" value="500ms" />
-						<option description="1 second" value="1000ms" />
-				</options>
+			<category>1</category>
+			<description>Container max width for extra-large screen sizes. Default: 1140px</description>
+			<sort>10</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>1140px</value>
+			<options>
+				<option description="No transition" value="0ms" />
+				<option description="50ms" value="50ms" />
+				<option description="100ms" value="100ms" />
+				<option description="250ms" value="250ms" />
+				<option description="500ms" value="500ms" />
+				<option description="1 second" value="1000ms" />
+			</options>
 		</text>
 		<text name="spacer" name_friendly="Root Spacer">
-				<category>1</category>
-				<description>Root spacer is used throughout template design to calculate space between elements. Default: 1rem</description>
-				<sort>11</sort>
-				<edit_in_content>1</edit_in_content>
-				<locked>0</locked>
-				<value>1140px</value>
-				<options>
-						<option description="No transition" value="0ms" />
-						<option description="50ms" value="50ms" />
-						<option description="100ms" value="100ms" />
-						<option description="250ms" value="250ms" />
-						<option description="500ms" value="500ms" />
-						<option description="1 second" value="1000ms" />
-				</options>
+			<category>1</category>
+			<description>Root spacer is used throughout template design to calculate space between elements. Default: 1rem</description>
+			<sort>11</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>1140px</value>
+			<options>
+				<option description="No transition" value="0ms" />
+				<option description="50ms" value="50ms" />
+				<option description="100ms" value="100ms" />
+				<option description="250ms" value="250ms" />
+				<option description="500ms" value="500ms" />
+				<option description="1 second" value="1000ms" />
+			</options>
 		</text>
 		<color name="body-bg" name_friendly="Body Background Color">
-				<category>1</category>
-				<description>Background color for template body.</description>
-				<sort>12</sort>
-				<edit_in_content>1</edit_in_content>
-				<locked>0</locked>
-				<value>#ffffff</value>
+			<category>1</category>
+			<description>Background color for template body.</description>
+			<sort>12</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>#ffffff</value>
 		</color>
-<dropdown name="navbar-bg" name_friendly="Navigation Background Color">
-    <category>4</category>
-    <description>Background Color for the Navigation</description>
-    <sort>1</sort>
-    <edit_in_content>1</edit_in_content>
-    <locked>0</locked>
-		<value>Primary</value>
-		<options>
+		<dropdown name="navbar-bg" name_friendly="Navigation Background Color">
+			<category>4</category>
+			<description>Background Color for the Navigation</description>
+			<sort>1</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>Primary</value>
+			<options>
 				<option description="Primary" value="primary" />
 				<option description="Secondary" value="secondary" />
 				<option description="Accent 1" value="accent1" />
@@ -222,16 +222,16 @@
 				<option description="Accent 4" value="accent4" />
 				<option description="Dark" value="dark" />
 				<option description="White" value="white" />
-		</options>
-</dropdown>
-<dropdown name="navbar-link-color" name_friendly="Navigation Font Color">
-    <category>4</category>
-    <description/>
-    <sort>2</sort>
-    <edit_in_content>1</edit_in_content>
-    <locked>0</locked>
-		<value>Primary</value>
-		<options>
+			</options>
+		</dropdown>
+		<dropdown name="navbar-link-color" name_friendly="Navigation Font Color">
+			<category>4</category>
+			<description/>
+			<sort>2</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>Primary</value>
+			<options>
 				<option description="Primary" value="primary" />
 				<option description="Secondary" value="secondary" />
 				<option description="Accent 1" value="accent1" />
@@ -240,16 +240,16 @@
 				<option description="Accent 4" value="accent4" />
 				<option description="Dark" value="dark" />
 				<option description="White" value="white" />
-		</options>
-</dropdown>
-<dropdown name="navbar-link-color-active" name_friendly="Navigation Font Color Active Page">
-    <category>4</category>
-    <description>Color of navigation link indicating current page</description>
-    <sort>3</sort>
-    <edit_in_content>1</edit_in_content>
-    <locked>0</locked>
-		<value>Primary</value>
-		<options>
+			</options>
+		</dropdown>
+		<dropdown name="navbar-link-color-active" name_friendly="Navigation Font Color Active Page">
+			<category>4</category>
+			<description>Color of navigation link indicating current page</description>
+			<sort>3</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>Primary</value>
+			<options>
 				<option description="Primary" value="primary" />
 				<option description="Secondary" value="secondary" />
 				<option description="Accent 1" value="accent1" />
@@ -258,31 +258,31 @@
 				<option description="Accent 4" value="accent4" />
 				<option description="Dark" value="dark" />
 				<option description="White" value="white" />
-		</options>
-</dropdown>
-<text name="nav-link-padding" name_friendly="Navigation Link Padding">
-    <category>4</category>
-    <description/>
-    <sort>5</sort>
-    <edit_in_content>1</edit_in_content>
-    <locked>0</locked>
-    <value>10px 15px</value>
-    <options>
-        <option description="As is" value="auto" />
-        <option description="Cover" value="cover" />
-        <option description="Contain" value="contain" />
-        <option description="100%" value="100%" />
-        <option description="90%" value="90%" />
-        <option description="80%" value="80%" />
-        <option description="70%" value="70%" />
-        <option description="60%" value="60%" />
-        <option description="50%" value="50%" />
-        <option description="40%" value="40%" />
-        <option description="30%" value="30%" />
-        <option description="20%" value="20%" />
-        <option description="10%" value="10%" />
-        <option description="" value="" />
-    </options>
-</text>
-    </variables>
+			</options>
+		</dropdown>
+		<text name="nav-link-padding" name_friendly="Navigation Link Padding">
+			<category>4</category>
+			<description/>
+			<sort>5</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value>10px 15px</value>
+			<options>
+				<option description="As is" value="auto" />
+				<option description="Cover" value="cover" />
+				<option description="Contain" value="contain" />
+				<option description="100%" value="100%" />
+				<option description="90%" value="90%" />
+				<option description="80%" value="80%" />
+				<option description="70%" value="70%" />
+				<option description="60%" value="60%" />
+				<option description="50%" value="50%" />
+				<option description="40%" value="40%" />
+				<option description="30%" value="30%" />
+				<option description="20%" value="20%" />
+				<option description="10%" value="10%" />
+				<option description="" value="" />
+			</options>
+		</text>
+	</variables>
 </plate_variables>
