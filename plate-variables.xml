@@ -214,14 +214,16 @@
 			<locked>0</locked>
 			<value>Primary</value>
 			<options>
-				<option description="Primary" value="primary" />
-				<option description="Secondary" value="secondary" />
-				<option description="Accent 1" value="accent1" />
-				<option description="Accent 2" value="accent2" />
-				<option description="Accent 3" value="accent3" />
-				<option description="Accent 4" value="accent4" />
-				<option description="Dark" value="dark" />
-				<option description="White" value="white" />
+				<options>
+				<option style="background-color:#b72761" description="Primary" value="primary" />
+				<option style="background-color:#3c4766" description="Secondary" value="secondary" />
+				<option style="background-color:#28a783" description="Accent 1" value="accent1" />
+				<option style="background-color:#17a2b8" description="Accent 2" value="accent2" />
+				<option style="background-color:#fac117" description="Accent 3" value="accent3" />
+				<option style="background-color:#868395" description="Accent 4" value="accent4" />
+				<option style="background-color:#161718" description="Dark" value="dark" />
+				<option style="background-color:#ffffff" description="White" value="white" />
+		</options>
 			</options>
 		</dropdown>
 		<dropdown name="navbar-link-color" name_friendly="Navigation Font Color">
