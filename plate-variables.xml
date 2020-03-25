@@ -215,12 +215,12 @@
 			<value>Primary</value>
 			<options>
 				<options>
-				<option description="<span style="background-color: #972756; background-position: initial initial; background-repeat: initial initial;padding: 0 12px;
-margin-right: 5px;"></span>Primary" value="primary" />
-				<option description="<span style="background-color: #373F5A; background-position: initial initial; background-repeat: initial initial;padding: 0 12px;
-margin-right: 5px;"></span>Secondary" value="secondary" />
-				<option description="<span style="background-color: #549C78; background-position: initial initial; background-repeat: initial initial;padding: 0 12px;
-margin-right: 5px;"></span>Accent 1" value="accent1" />
+				<option description="<span style='background-color: #972756; background-position: initial initial; background-repeat: initial initial;padding: 0 12px;
+margin-right: 5px;'></span>Primary" value="primary" />
+				<option description="<span style='background-color: #373F5A; background-position: initial initial; background-repeat: initial initial;padding: 0 12px;
+margin-right: 5px;'></span>Secondary" value="secondary" />
+				<option description="<span style='background-color: #549C78; background-position: initial initial; background-repeat: initial initial;padding: 0 12px;
+margin-right: 5px;'></span>Accent 1" value="accent1" />
 				<option description="Accent 2" value="accent2" />
 				<option description="Accent 3" value="accent3" />
 				<option description="Accent 4" value="accent4" />
