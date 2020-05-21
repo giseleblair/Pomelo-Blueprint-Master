@@ -1,0 +1,16 @@
+{  
+  "name": "Blue Print Name",
+  "version": "1.0.0",
+  "description": "Get and Create customers on stripe that are connects to zesty users accounts",
+  "author": "Zesty.io<developers@zesty.io>",
+  "license": "",
+  "registeredInstance": "8-xyz-xyz",
+  "images": {
+    "thumbnail" :"https://domain.com/url.jpg",
+    "previews" : [
+      "https://domain.com/url.jpg",
+      "https://domain.com/url.jpg",
+      "https://domain.com/url.jpg"
+    ] 
+   }
+}
