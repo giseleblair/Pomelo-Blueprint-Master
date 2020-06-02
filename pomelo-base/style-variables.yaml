@@ -1,0 +1,454 @@
+variables:
+ -
+  name: container-large-desktop
+  type: text
+  label: Max Container Width
+  category: 1
+  description:
+  sort: 1
+  editInContent: true
+  locked: false
+  value: 1240px
+ -
+  name: body-bg
+  type: color
+  label: Body Background Color
+  category: 1
+  description: The primary background for elements
+  sort: 5
+  editInContent: true
+  locked: false
+  value: "#ffffff"
+ -
+  name: border-radius-base
+  type: text
+  label: Default Border Radius
+  category: 1
+  description: The default curvature for borders around elements.
+  sort: 7
+  editInContent: true
+  locked: false
+  value: 0px
+ -
+  name: navbar-default-link-color
+  type: color
+  label: Navigation Font Color
+  category: 4
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#ffffff"
+ -
+  name: navbar-default-bg
+  type: color
+  label: Navigation Background Color
+  category: 4
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#3b393b"
+ -
+  name: nav-font-size
+  type: text
+  label: Navigation Font Size
+  category: 4
+  description: NULL
+  sort: 1
+  editInContent: true
+  locked: false
+  value: 14px
+ -
+  name: link-color
+  type: color
+  label: Link Color
+  category: 3
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#6699cc"
+ -
+  name: link-hover-color
+  type: color
+  label: Link Hover Color
+  category: 3
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#5588bb"
+ -
+  name: link-hover-decoration
+  type: dropdown
+  label: Link Hover Decoration
+  category: 3
+  sort: 1
+  editInContent: true
+  locked: false
+  value: underline
+  options:
+   -
+    description: Underline
+    value: underline
+   -
+    description: None
+    value: none
+ -
+  name: font-family-base
+  type: font_picker
+  label: Main Body Font
+  category: 2
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "'Hind', Helvetica, Arial, sans-serif"
+ -
+  name: text-color
+  type: color
+  label: Default Text Color
+  category: 2
+  description: NULL
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#111111"
+ -
+  name: font-size-base
+  type: text
+  label: Default Font Size
+  category: 2
+  description: NULL
+  sort: 1
+  editInContent: true
+  locked: false
+  value: 16px
+ -
+  name: serif-font
+  type: font_picker
+  label: Serif Font
+  category: 2
+  description: NULL
+  sort: 9
+  editInContent: true
+  locked: false
+  value: "'Droid Serif', 'Arial', 'Helvetica', 'sans-serif'"
+ -
+  name: headings-font-family
+  type: font_picker
+  label: Heading Font
+  category: 2
+  description: NULL
+  sort: 9
+  editInContent: true
+  locked: false
+  value: "'Montserrat', 'Arial', 'Helvetica', 'sans-serif'"
+ -
+  name: headings-font-weight
+  type: dropdown
+  label: Headings Font Weight
+  category: 2
+  description: NULL
+  sort: 10
+  editInContent: true
+  locked: false
+  value: 500
+  options:
+   -
+    description: 100
+    value: 100
+   -
+    description: 200
+    value: 200
+   -
+    description: 300
+    value: 300
+   -
+    description: 400
+    value: 400
+   -
+    description: 500
+    value: 500
+   -
+    description: 600
+    value: 600
+   -
+    description: 700
+    value: 700
+   -
+    description: 800
+    value: 800
+   -
+    description: 900
+    value: 900
+ -
+  name: headings-line-height
+  type: text
+  label: Headings Line Height
+  category: 2
+  description: NULL
+  sort: 9
+  editInContent: true
+  locked: false
+  value: 1.3em
+ -
+  name: paragraph-font-size
+  type: text
+  label: Paragraph Font Size
+  category: 2
+  description: NULL
+  sort: 6
+  editInContent: true
+  locked: false
+  value: 18px
+ -
+  name: paragraph-font-color
+  type: color
+  label: Paragraph Font Color
+  category: 2
+  description: NULL
+  sort: 5
+  editInContent: true
+  locked: false
+  value: "#5a5a5a"
+ -
+  name: line-height-computed
+  type: text
+  label: Paragraph Line Height
+  category: 2
+  description: NULL
+  sort: 4
+  editInContent: true
+  locked: false
+  value: 1.6em
+ -
+  name: btn-default-color
+  type: color
+  label: Button Font Color
+  category: 6
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#ffffff"
+ -
+  name: btn-border-radius-base
+  type: text
+  label: Button Border Radius
+  category: 6
+  sort: 1
+  editInContent: true
+  locked: false
+  value: 4px
+ -
+  name: btn-default-bg
+  type: color
+  label: Button Background Color
+  category: 6
+  description: NULL
+  sort: 1
+  editInContent: true
+  locked: false
+  value: "#6699cc"
+ -
+  name: btn-hover-font-color
+  type: color
+  label: Button Hover Font Color
+  category: 6
+  description: NULL
+  sort: 25
+  editInContent: true
+  locked: false
+  value: "#ffffff"
+ -
+  name: btn-hover-bg-color
+  type: color
+  label: Button Border Color
+  category: 6
+  description: NULL
+  sort: 20
+  editInContent: true
+  locked: false
+  value: "#082470"
+ -
+  name: brand-primary
+  type: color
+  label: Brand Color
+  category: 1
+  description: This color is used for hairlines, borders, even color on tables, and general aesthetics
+  sort: 3
+  editInContent: true
+  locked: false
+  value: "#5FCFA7"
+  options:
+   -
+    description: No transition
+    value: 0ms
+   -
+    description: 50ms
+    value: 50ms
+   -
+    description: 100ms
+    value: 100ms
+   -
+    description: 250ms
+    value: 250ms
+   -
+    description: 500ms
+    value: 500ms
+   -
+    description: 1 second
+    value: 1000ms
+ -
+  name: theme-danger-color
+  type: color
+  label: Warning (error) Color
+  category: 1
+  description: Notification color, should be a dark yellow, red, or orange.
+  sort: 5
+  editInContent: true
+  locked: false
+  value: "#e74c3c"
+ -
+  name: theme-gray-color
+  type: color
+  label: Theme Gray Color
+  category: 1
+  description: Base color for all the basic type on the website.
+  sort: 5
+  editInContent: true
+  locked: false
+  value: "#181718"
+ -
+  name: body-bg-image
+  type: image
+  label: Body Background Image
+  category: 1
+  description:
+  sort: 12
+  editInContent: true
+  locked: false
+  value:
+ -
+  name: body-bg-image-repeat
+  type: dropdown
+  label: Body Background Image Repeat
+  category: 1
+  description: Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.
+  sort: 25
+  editInContent: true
+  locked: false
+  value: repeat
+  options:
+   -
+    description: No Repeat
+    value: no-repeat
+   -
+    description: Repeat on Y Axis
+    value: repeat-y
+   -
+    description: Repeat on X Axis
+    value: repeat-x
+   -
+    description: Repeat
+    value: repeat
+ -
+  name: body-bg-image-size
+  type: dropdown
+  label: Body Background Image Size
+  category: 1
+  description: &lt;strong&gt;Cover&lt;/strong&gt; scales the image to be as large as possible. &lt;strong&gt;Contain&lt;/strong&gt; scales the image to either the width or the height depending on which is longer. &lt;strong&gt;Percentages&lt;/strong&gt; will scale the image to a percentage of the browser
+  sort: 30
+  editInContent: true
+  locked: false
+  value: 50%
+  options:
+   -
+    description: As is
+    value: auto
+   -
+    description: Cover
+    value: cover
+   -
+    description: Contain
+    value: contain
+   -
+    description: 100%
+    value: 100%
+   -
+    description: 90%
+    value: 90%
+   -
+    description: 80%
+    value: 80%
+   -
+    description: 70%
+    value: 70%
+   -
+    description: 60%
+    value: 60%
+   -
+    description: 50%
+    value: 50%
+   -
+    description: 40%
+    value: 40%
+   -
+    description: 30%
+    value: 30%
+   -
+    description: 20%
+    value: 20%
+   -
+    description: 10%
+    value: 10%
+ -
+  name: content-bg-color
+  type: color
+  label: Content Background Color
+  category: 1
+  description: The background color of all content boxes.
+  sort: 2
+  editInContent: true
+  locked: false
+  value: "#ffffff"
+ -
+  name: default-spacing
+  type: text
+  label: Default Spacing
+  category: 1
+  description: This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui
+  sort: 7
+  editInContent: true
+  locked: false
+  value: 30px
+ -
+  name: accent-color
+  type: color
+  label: Accent Color
+  category: 1
+  description: This color is used for hairlines, borders, even color on tables, and general aesthetics
+  sort: 3
+  editInContent: true
+  locked: false
+  value: "#6699cc"
+ -
+  name: nav-at-font-color
+  type: text
+  label:
+ -
+  name: navbar-height
+  type: text
+  label:
+ -
+  name: nav-link-padding-left
+  type: text
+  label:
+ -
+  name: nav-link-padding
+  type: text
+  label:
+ -
+  name: navbar-default-link-hover-color
+  type: text
+  label:
+ -
+  name: navbar-default-link-hover-bg
+  type: text
+  label:

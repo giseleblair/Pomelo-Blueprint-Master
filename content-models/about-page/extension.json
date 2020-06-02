@@ -1,0 +1,20 @@
+{
+    "name" : "about-page",
+    "description": "Get and Create customers on stripe that are connects to zesty users accounts",
+    "version": "1.0.0",
+    "repository" : "https://github.com/zesty-io/about-page",
+    "author": "Gisele Blair <gisele.blair@zesty.io>",
+    "author-id": "8-zyx-zyx",
+    "license": "",
+    "images": {
+      "thumbnail" :"https://domain.com/url.jpg",
+      "previews" : [
+        "https://domain.com/url.jpg",
+        "https://domain.com/url.jpg",
+        "https://domain.com/url.jpg"
+      ] 
+     },
+    "extensions": {
+        "google-setting" : "https://github.com/zesty-io/google-settings"
+     }
+}

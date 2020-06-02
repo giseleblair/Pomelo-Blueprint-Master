@@ -2,9 +2,11 @@
   "name": "Blue Print Name",
   "version": "1.0.0",
   "description": "Get and Create customers on stripe that are connects to zesty users accounts",
-  "author": "Zesty.io<developers@zesty.io>",
+  "repository" : "https://github.com/zesty-io/about-page",
+  "author": "Gisele Blair <gisele.blair@zesty.io>",
+  "author-id": "8-zyx-zyx",
   "license": "",
-  "registeredInstance": "8-xyz-xyz",
+  "masterInstance": "8-xyz-xyz",
   "images": {
     "thumbnail" :"https://domain.com/url.jpg",
     "previews" : [
@@ -12,5 +14,12 @@
       "https://domain.com/url.jpg",
       "https://domain.com/url.jpg"
     ] 
-   }
+   },
+   "extensions": {
+     "pomelo-base" : "blueprint-base/",
+     "zesty-twitter-settings": "https://ghithub.com/giseleb/zesty-twitter-settings",
+     "blog" : "content-models/blog/",
+     "about-page" : "content-models/about-page/"        
+  }
+  
 }

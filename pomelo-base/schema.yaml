@@ -1,0 +1,45 @@
+models:
+    -
+     label: Homepage
+     name:  homepage ### All collection names in a blueprint must be unique
+     view:  views/homepage.tpl ### relative path
+     type:  templateset ### we need to update this naming convention
+     content: contents/homepage-contents.yaml ### referenced below
+     hasRoute: true
+     showAsTable: false
+     fields:
+      -
+       name: title ### Field name cannot begin with _, _ are for reserved field names
+       label: Lead in title
+       type: text ### Field types drawn from https://developer.zesty.io/docs/content-schemas/set-fields/
+       options:
+        required: true
+      -
+       name: content
+       label: Intro Text
+       type: wysiwyg_advanced
+    -
+     label: Clippings
+     name:  clippings
+     type:  dataset
+     content: contents/clippings-contents.yaml
+     hasRoute: false
+     showAsTable: false
+     fields:
+      -
+       name: site_name
+       label: Site name
+       type: text
+       options:
+        required: true
+      -
+       name: logo
+       label: logo
+       type: images
+       options:
+        limit: 1
+      -
+       name: footer_text
+       label: Footer Text
+       type: text
+    

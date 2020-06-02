@@ -1,0 +1,29 @@
+settings: ## Initial site settings can be overridden here. All initial settings have a default value if not set in YAML.
+  general:
+   robotsOn: true
+   siteProtocol: http
+   alwaysRedirectToHttps: false
+   preferredDomainPrefix: false
+   showInTitle: true
+  developer:
+   ajaxCorsAllowAnyOrigin: false
+   parsleyDebugger: false
+   tips: true
+   basicContentApiEnabled: false
+   basicContentApiCorsAllowAnyOrigin: false
+   autoIncludeJsInHead: true # If this is set to false, you must include a refrence to site.js manually in the code to use the custom javascript files
+  contact:
+   sendingEmail: NULL
+   recipients: NULL # sends
+   replyEmail: NULL
+variables:
+    -
+    name: container-large-desktop
+    type: text
+    label: Max Container Width
+    category: 1
+    description:
+    sort: 1
+    editInContent: true
+    locked: false
+    value: 1240px
