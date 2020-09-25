@@ -1,290 +1,616 @@
 <?xml version="1.0"?>
 <plate_variables>
-	<created_date>2013-08-14</created_date>
-	<created_date>2013-08-14</created_date>
-	<plate>Blank Slate</plate>
+    <created_date>2020-09-14</created_date>
+	<created_date>2020-09-14</created_date>
+	<plate>Hamster</plate>
 	<created_by>Zesty</created_by>
 	<kitchen>Empty</kitchen>
-	<variables>
-		<color name="primary" name_friendly="Primary Color">
-			<category>1</category>
-			<description/>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#b72761</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<color name="secondary" name_friendly="Secondary Color">
-			<category>1</category>
-			<description/>
-			<sort>2</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#3c4766</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<color name="accent1" name_friendly="Accent 1">
-			<category>1</category>
-			<description/>
-			<sort>3</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#28a783</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<color name="accent2" name_friendly="Accent 2">
-			<category>1</category>
-			<description/>
-			<sort>4</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#17a2b8</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<color name="accent3" name_friendly="Accent 3">
-			<category>1</category>
-			<description/>
-			<sort>5</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#fac117</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<color name="accent4" name_friendly="Accent 4">
-			<category>1</category>
-			<description/>
-			<sort>6</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#ff6f59</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<color name="dark" name_friendly="Dark Color">
-			<category>1</category>
-			<description/>
-			<sort>7</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#343a40</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</color>
-		<text name="container-max-sm" name_friendly="Container sm max width">
-			<category>1</category>
-			<description>Container max width for small screen sizes. Default: 540px</description>
-			<sort>8</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>540px</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</text>
-		<text name="container-max-md" name_friendly="Container md max width">
-			<category>1</category>
-			<description>Container max width for medium screen sizes. Default: 720px</description>
-			<sort>9</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>720px</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</text>
-		<text name="container-max-lg" name_friendly="Container lg max width">
-			<category>1</category>
-			<description>Container max width for large screen sizes. Default: 960px</description>
-			<sort>10</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>960px</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</text>
-		<text name="container-max-xl" name_friendly="Container xl max width">
-			<category>1</category>
-			<description>Container max width for extra-large screen sizes. Default: 1140px</description>
-			<sort>10</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>1140px</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</text>
-		<text name="spacer" name_friendly="Root Spacer">
-			<category>1</category>
-			<description>Root spacer is used throughout template design to calculate space between elements. Default: 1rem</description>
-			<sort>11</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>1140px</value>
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-		</text>
-		<color name="body-bg" name_friendly="Body Background Color">
-			<category>1</category>
-			<description>Background color for template body.</description>
-			<sort>12</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>#ffffff</value>
-		</color>
-		<dropdown name="navbar-bg" name_friendly="Navigation Background Color">
-			<category>4</category>
-			<description>Background Color for the Navigation</description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>Primary</value>
-			<options>
-				<options>
-				<option description="Primary" value="primary" />
-				<option description="Secondary" value="secondary" />
-				<option description="Accent 1" value="accent1" />
-				<option description="Accent 2" value="accent2" />
-				<option description="Accent 3" value="accent3" />
-				<option description="Accent 4" value="accent4" />
-				<option description="Dark" value="dark" />
-				<option description="White" value="white" />
-		</options>
-			</options>
-		</dropdown>
-		<dropdown name="navbar-link-color" name_friendly="Navigation Font Color">
-			<category>4</category>
-			<description/>
-			<sort>2</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>Primary</value>
-			<options>
-				<option description="Primary" value="primary" />
-				<option description="Secondary" value="secondary" />
-				<option description="Accent 1" value="accent1" />
-				<option description="Accent 2" value="accent2" />
-				<option description="Accent 3" value="accent3" />
-				<option description="Accent 4" value="accent4" />
-				<option description="Dark" value="dark" />
-				<option description="White" value="white" />
-			</options>
-		</dropdown>
-		<dropdown name="navbar-link-color-active" name_friendly="Navigation Font Color Active Page">
-			<category>4</category>
-			<description>Color of navigation link indicating current page</description>
-			<sort>3</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>Primary</value>
-			<options>
-				<option description="Primary" value="primary" />
-				<option description="Secondary" value="secondary" />
-				<option description="Accent 1" value="accent1" />
-				<option description="Accent 2" value="accent2" />
-				<option description="Accent 3" value="accent3" />
-				<option description="Accent 4" value="accent4" />
-				<option description="Dark" value="dark" />
-				<option description="White" value="white" />
-			</options>
-		</dropdown>
-		<text name="nav-link-padding" name_friendly="Navigation Link Padding">
-			<category>4</category>
-			<description/>
-			<sort>5</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value>10px 15px</value>
-			<options>
-				<option description="As is" value="auto" />
-				<option description="Cover" value="cover" />
-				<option description="Contain" value="contain" />
-				<option description="100%" value="100%" />
-				<option description="90%" value="90%" />
-				<option description="80%" value="80%" />
-				<option description="70%" value="70%" />
-				<option description="60%" value="60%" />
-				<option description="50%" value="50%" />
-				<option description="40%" value="40%" />
-				<option description="30%" value="30%" />
-				<option description="20%" value="20%" />
-				<option description="10%" value="10%" />
-				<option description="" value="" />
-			</options>
-		</text>
-	</variables>
+    <variables>
+        <!-- Body Colors & Spacing Category:1 -->
+        <color name="primary_brand" name_friendly="Primary Color">
+            <category>1</category>
+            <description>Main brand color.</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#B72761</value>
+        </color>
+        <color name="secondary_color" name_friendly="Secondary Color">
+            <category>1</category>
+            <description>Secondary color.</description>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#3C4766</value>
+        </color>
+        <color name="accent-color" name_friendly="Accent Color">
+            <category>1</category>
+            <description></description>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#3bce9d</value>
+        </color>
+        <color name="accent2" name_friendly="Accent 2">
+            <category>1</category>
+            <description></description>
+            <sort>4</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#17A2B8</value>
+        </color>
+        <color name="accent3" name_friendly="Accent 3">
+            <category>1</category>
+            <description></description>
+            <sort>5</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#FAC117</value>
+        </color>
+        <color name="accent4" name_friendly="Accent 4">
+            <category>1</category>
+            <description></description>
+            <sort>6</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#ff6f59</value>
+        </color>
+        <color name="dark" name_friendly="Dark">
+            <category>1</category>
+            <description></description>
+            <sort>7</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#242322</value>
+        </color>
+        <color name="light" name_friendly="Light">
+            <category>1</category>
+            <description></description>
+            <sort>8</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#dfeaed</value>
+        </color>
+        <color name="light" name_friendly="Light">
+            <category>1</category>
+            <description></description>
+            <sort>8</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#dfeaed</value>
+        </color>
+        <text name="default_border_radius" name_friendly="Default Border Radius">
+            <category>1</category>
+            <description>The default curvature for borders around elements. Use px unit.</description>
+            <sort>7</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>10px</value>
+        </text>
+        <!-- Typography Category:2 -->
+        <font_picker name="font-family-base" name_friendly="Main Body Font">
+            <category>2</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>"Hind", Helvetica, Arial, sans-serif</value>
+        </font_picker>
+        <color name="text-color" name_friendly="Default Text Color">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>#111111</value>
+        </color>
+        <text name="font-size-base" name_friendly="Default Font Size">
+            <category>2</category>
+            <description>Base font size. Use rem units. Increasing/decreasing this size will increase all text accordingly. Default: 1rem</description>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1rem</value>
+        </text>
+        <text name="h1-line-height" name_friendly="H1 Line Height">
+            <category>2</category>
+            <description>Use no units. Default: 1.2 </description>
+            <sort>4</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1.2</value>
+        </text>
+        <text name="paragraph-line-height" name_friendly="Paragraph Line Height">
+            <category>2</category>
+            <description>Use no units. Default: 1.5 </description>
+            <sort>5</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1.5</value>
+        </text>
+        <text name="paragraph-margin-bottom" name_friendly="Paragraph Margin Bottom">
+            <category>2</category>
+            <description>Use rem units. Default: 1rem </description>
+            <sort>6</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1rem</value>
+        </text>
+        <font_picker name="headings-font-family" name_friendly="Heading Font">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>9</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>'Montserrat', 'Arial', 'Helvetica', 'sans-serif'</value>
+        </font_picker>
+        <dropdown name="headings-color" name_friendly="H1 Heading Color">
+            <category>2</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>10</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <text name="h1-font-size" name_friendly="H1 Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>11</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+        </text>
+        <dropdown name="h1-font-weight" name_friendly="H1 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>12</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>500</value>
+            <options>
+                <option description="100" value="100" />
+                <option description="200" value="200" />
+                <option description="300" value="300" />
+                <option description="400" value="400" />
+                <option description="500" value="500" />
+                <option description="600" value="600" />
+                <option description="700" value="700" />
+                <option description="800" value="800" />
+                <option description="900" value="900" />
+            </options>
+        </dropdown>
+        <dropdown name="h2-color" name_friendly="H2 Heading Color">
+            <category>2</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>13</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <text name="h2-font-size" name_friendly="H2 Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>14</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+        </text>
+        <dropdown name="h2-font-weight" name_friendly="H2 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>500</value>
+            <options>
+                <option description="100" value="100" />
+                <option description="200" value="200" />
+                <option description="300" value="300" />
+                <option description="400" value="400" />
+                <option description="500" value="500" />
+                <option description="600" value="600" />
+                <option description="700" value="700" />
+                <option description="800" value="800" />
+                <option description="900" value="900" />
+            </options>
+        </dropdown>
+        <dropdown name="h3-color" name_friendly="H3 Heading Color">
+            <category>2</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>13</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <text name="h3-font-size" name_friendly="H3 Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>14</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+        </text>
+        <dropdown name="h3-font-weight" name_friendly="H3 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>500</value>
+            <options>
+                <option description="100" value="100" />
+                <option description="200" value="200" />
+                <option description="300" value="300" />
+                <option description="400" value="400" />
+                <option description="500" value="500" />
+                <option description="600" value="600" />
+                <option description="700" value="700" />
+                <option description="800" value="800" />
+                <option description="900" value="900" />
+            </options>
+        </dropdown>
+        <dropdown name="h4-color" name_friendly="H4 Heading Color">
+            <category>2</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>13</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <text name="h4-font-size" name_friendly="H4 Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>14</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+        </text>
+        <dropdown name="h4-font-weight" name_friendly="H4 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>500</value>
+            <options>
+                <option description="100" value="100" />
+                <option description="200" value="200" />
+                <option description="300" value="300" />
+                <option description="400" value="400" />
+                <option description="500" value="500" />
+                <option description="600" value="600" />
+                <option description="700" value="700" />
+                <option description="800" value="800" />
+                <option description="900" value="900" />
+            </options>
+        </dropdown>
+        <dropdown name="h5-color" name_friendly="H5 Heading Color">
+            <category>2</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>13</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <text name="h5-font-size" name_friendly="H5 Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>14</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+        </text>
+        <dropdown name="h5-font-weight" name_friendly="H5 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>500</value>
+            <options>
+                <option description="100" value="100" />
+                <option description="200" value="200" />
+                <option description="300" value="300" />
+                <option description="400" value="400" />
+                <option description="500" value="500" />
+                <option description="600" value="600" />
+                <option description="700" value="700" />
+                <option description="800" value="800" />
+                <option description="900" value="900" />
+            </options>
+        </dropdown>
+        <dropdown name="h6-color" name_friendly="H6 Heading Color">
+            <category>2</category>
+            <description>Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.</description>
+            <sort>13</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <text name="h6-font-size" name_friendly="H6 Font Size">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>14</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>38px</value>
+        </text>
+        <dropdown name="h6-font-weight" name_friendly="H6 Font Weight">
+            <category>2</category>
+            <description>NULL</description>
+            <sort>15</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>500</value>
+            <options>
+                <option description="100" value="100" />
+                <option description="200" value="200" />
+                <option description="300" value="300" />
+                <option description="400" value="400" />
+                <option description="500" value="500" />
+                <option description="600" value="600" />
+                <option description="700" value="700" />
+                <option description="800" value="800" />
+                <option description="900" value="900" />
+            </options>
+        </dropdown>
+        <!-- Typography Category:3 -->
+        <dropdown name="link-color" name_friendly="Link Color">
+            <category>3</category>
+            <description></description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>3_success</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <dropdown name="link-hover-color" name_friendly="Link Hover Color">
+            <category>3</category>
+            <description></description>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>5_warning</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <dropdown name="link-text-decoration" name_friendly="Link Text Decoration">
+            <category>3</category>
+            <description/>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>underline</value>
+            <options>
+                <option description="Underline" value="underline" />
+                <option description="None" value="none" />
+            </options>
+        </dropdown>
+        <!-- Navigation Category:4 -->
+        <text name="nav-link-padding" name_friendly="Navigation Link Padding">
+            <category>4</category>
+            <description>Padding around navigation links. Default: 10px 15px</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>10px 15px</value>
+        </text>
+        <dropdown name="nav-bg-color" name_friendly="Navigation Background Color">
+            <category>4</category>
+            <description>Background Color for Navitgation</description>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>white</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <dropdown name="nav-font-color" name_friendly="Navigation Font Color">
+            <category>4</category>
+            <description>Text Color for Navitgation</description>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>dark</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <!-- Sidebar Category:5 -->
+        <dropdown name="sidebar-bg-color" name_friendly="Sidebar Background Color">
+            <category>5</category>
+            <description>Background color for sidebar. Default: Light</description>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>7_light</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <dropdown name="sidebar-text-color" name_friendly="Sidebar Text Color">
+            <category>5</category>
+            <description>Text color for sidebar. Default: Dark</description>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>8_dark</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <dropdown name="sidebar-link-hover-color" name_friendly="Sidebar Link Hover Color">
+            <category>5</category>
+            <description>Background color for sidebar on hover. Default: Primary</description>
+            <sort>3</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1_primary</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <dropdown name="sidebar-hover-text-color" name_friendly="Sidebar Hover Text Color">
+            <category>5</category>
+            <description>Text color for sidebar on hover. Default: White</description>
+            <sort>4</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>white</value>
+            <options>
+                <option description="Primary" value="1_primary" />
+                <option description="Secondary" value="2_secondary" />
+                <option description="Accent 1" value="3_success" />
+                <option description="Accent 2" value="4_info" />
+                <option description="Accent 3" value="5_warning" />
+                <option description="Accent 4" value="6_danger" />
+                <option description="Light" value="7_light" />
+                <option description="Dark" value="8_dark" />
+                <option description="White" value="white" />
+            </options>
+        </dropdown>
+        <!-- Buttons Category:6 -->
+        <text name="btn-border-radius-base" name_friendly="Button Border Radius">
+            <category>6</category>
+            <description/>
+            <sort>1</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>4px</value>
+        </text>
+        <text name="btn-font-size" name_friendly="Button Font Size">
+            <category>6</category>
+            <description/>
+            <sort>2</sort>
+            <edit_in_content>1</edit_in_content>
+            <locked>0</locked>
+            <value>1rem</value>
+        </text>
+    </variables>
 </plate_variables>
